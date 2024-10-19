@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Exam Helper</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Exam Helper</h1>
+
+        <div class="section">
+            <h2>Upload a PDF</h2>
+            <form id="uploadForm">
+                <input type="file" id="pdfInput" accept="application/pdf" />
+                <button type="submit">Upload PDF</button>
+            </form>
+            <div id="pdfText"></div>
+        </div>
+
+        <div class="section">
+            <h2>Train the AI</h2>
+            <button id="trainBtn">Start Training</button>
+            <div id="trainStatus"></div>
+        </div>
+
+        <div class="section">
+            <h2>Chat with the AI</h2>
+            <input type="text" id="userInput" placeholder="Ask the AI something..."/>
+            <button id="chatBtn">Send</button>
+            <div id="chatOutput"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

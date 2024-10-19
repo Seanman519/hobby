@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+input[type="file"],
+input[type="text"],
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#pdfText, #trainStatus, #chatOutput {
+    margin-top: 20px;
+}
